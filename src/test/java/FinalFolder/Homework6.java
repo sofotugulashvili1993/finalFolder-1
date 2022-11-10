@@ -21,7 +21,7 @@ public class Homework6 extends BaseTest {
         SelenideElement text = $(byText("google"));
         search.setValue("sofo tugulashvili");
         Assert.assertFalse(text.is(Condition.visible));
-        Assert.assertEquals(search.getValue(), "sofo tugulashvili", "mesiji");
+        Assert.assertEquals(search.getValue(), "sofo tugulashvili", "comment");
         sleep(5000);
     }
 
