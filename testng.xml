@@ -3,7 +3,28 @@
 <suite name="Automation Suite" thread-count="2" parallel="tests">
     <test name="test" parallel="tests" >
         <classes>
-            <class name="FinalFolder.Homework6"/>
+            <class name="FinalFolder.LogInTest"/>
+            <class name="FinalFolder.ProductPageTest"/>
+            <class name="FinalFolder.ShoppingBagTest"/>
         </classes>
     </test>
+
 </suite>
+
+
+
+
+
+
+
+
+
+<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >-->
+
+<!--<suite name="Automation Suite" thread-count="2" parallel="tests">-->
+<!--    <test name="test" parallel="tests" >-->
+<!--        <classes>-->
+<!--            <class name="FinalFolder.Homework6"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->
